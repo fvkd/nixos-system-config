@@ -29,7 +29,8 @@
     openFirewall = true;
   };
 
-  # Emacs configuration
+  # Emacs configuration 
+  ## TODO: Edit to configure for Doom Emacs
   services.emacs = {
     package = pkgs.emacs-gtk;
     enable = true;
@@ -40,11 +41,13 @@
   # Enable the KDE Plasma Desktop Environment
   services.xserver.displayManager = {
     sddm.enable = true;
+    ## TODO: make and config at '~/.xinitrc' 
     startx.enable = true;
   };
   services.xserver.desktopManager.plasma5.enable = true;
 
   # Enable other window managers
+  ## TODO: retrieve ratpoison config from Samsung usb
   services.xserver.windowManager = {
     awesome = {
       package = pkgs.awesome;
