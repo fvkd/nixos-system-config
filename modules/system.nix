@@ -41,4 +41,6 @@
 
   # Enable Fish shell
   programs.fish.enable = true;
+
+  ## TODO: enable automatic garbage-collection
 }
