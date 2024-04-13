@@ -57,6 +57,7 @@
     xlockmore
     xdo
     wget
+    vuze
 
     # Hyprland desktop environment
     hyprdim
