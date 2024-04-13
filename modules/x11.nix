@@ -46,15 +46,6 @@
 
   # Enable other window managers
   services.xserver.windowManager = {
-    ratpoison.enable = true;
-    dk = {
-      enable = true;
-      package = pkgs.dk;
-    };
-    herbstluftwm = {
-      enable = true;
-      package = pkgs.herbstluftwm;
-    };
     awesome = {
       package = pkgs.awesome;
       enable = true;
