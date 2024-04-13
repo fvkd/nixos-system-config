@@ -5,8 +5,8 @@
 }: {
   # Open ports in the firewall
   networking.firewall = {
-    allowedTCPPorts = [24800];
-    allowedUDPPorts = [24800];
+    allowedTCPPorts = [...];
+    allowedUDPPorts = [...];
     enable = true;
   };
 
@@ -52,4 +52,12 @@
 
   # Enable TCP BBR kernel module
   boot.kernelModules = ["tcp_bbr"];
+
+  # Enable SSH
+  services.openssh = {
+  enable = true;
+  permitRootLogin = "no";
+  passwordAuthentication = false;
+  allowUsers = ["vivivi", "fvkd"];
+};
 }

@@ -30,6 +30,12 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  # Automatic system upgrade
+  system.autoUpgrade = {
+    enable = true;
+    allowReboot = true;
+  };
+
   # Enable Keyd service
   services.keyd.enable = true;
 
