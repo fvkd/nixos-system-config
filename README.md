@@ -1,1 +1,1 @@
-!(imgs/nixosblanket.png)
+(imgs/nixosblanket.png)
