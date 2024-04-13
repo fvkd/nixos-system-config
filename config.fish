@@ -12,7 +12,8 @@ alias da="curl 'https://wttr.in/?format=1' | tr -d '+' && date && upower -i /org
 ## TODO: make a wrapper for (combining) 'sudo nixos-rebuild switch' and 'home-manager switch', logging all output to a logfile/s, and 
 ## only important info to stdout including home-manager generation and any errors that may have occured during build. work on having 
 ## output to stdout with Glow or something else from CharmBracelet, maybe some kind of tui load/progress bar with animated/color-changing 
-## text. wrapper should do a 'git push' to backup both the '/etc/nixos' and '~/.config/home-manager' dirs and other dotfiles.
+## text. wrapper should do a 'git push' to backup both the '/etc/nixos' and '~/.config/home-manager' dirs and other dotfiles. for sure 
+## have stdout logged to .log and .md formats.
 alias nrs='sudo nixos-rebuild switch '
 
 alias listgen='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
