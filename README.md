@@ -1,1 +1,1 @@
-(imgs/nixosblanket.png)
+![so cozy](imgs/nixosblanket.png)
