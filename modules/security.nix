@@ -52,12 +52,4 @@
 
   # Enable TCP BBR kernel module
   boot.kernelModules = ["tcp_bbr"];
-
-  # Enable SSH
-  services.openssh = {
-  enable = true;
-  permitRootLogin = "no";
-  passwordAuthentication = false;
-  allowUsers = ["vivivi", "fvkd"];
-};
 }
