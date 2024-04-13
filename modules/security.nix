@@ -5,8 +5,8 @@
 }: {
   # Open ports in the firewall
   networking.firewall = {
-    allowedTCPPorts = [...];
-    allowedUDPPorts = [...];
+    allowedTCPPorts = [ ... ];
+    allowedUDPPorts = [ ... ];
     enable = true;
   };
 
