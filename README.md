@@ -1,0 +1,1 @@
+!(imgs/nixosblanket.png)
