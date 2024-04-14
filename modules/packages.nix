@@ -16,7 +16,7 @@
     gh
     git
     meson
-    nixfmt
+    nixfmt-classic
     nixpkgs-fmt
     pkg-config
     poetry

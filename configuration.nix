@@ -13,4 +13,6 @@
     ./modules/security.nix
     ./modules/other.nix
   ];
+
+  system.stateVersion = "23.11";
 }
