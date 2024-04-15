@@ -50,7 +50,7 @@
   # Enable Fish shell
   programs.fish.enable = true;
 
-  ## TODO: enable automatic garbage-collection
+  # Enable automatic garbage-collection
   nix.gc.automatic = true;
   nix.gc.options = "--delete-older-than 2d";
 }
