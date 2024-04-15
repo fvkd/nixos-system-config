@@ -34,6 +34,13 @@
   system.autoUpgrade = {
     enable = true;
     allowReboot = true;
+    flags = [
+      "--update-input"
+      "nixospkgs"
+      "-L"
+    ];
+    dates = "0:00";
+    randomizedDelaySec = "45min";
   };
 
   # Enable Keyd service
