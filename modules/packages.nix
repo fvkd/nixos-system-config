@@ -28,6 +28,8 @@
     appimage-run
     atuin
     barrier
+    bitwarden-desktop
+    bitwarden-cli
     bluez
     bluez-tools
     ckb-next

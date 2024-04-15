@@ -21,6 +21,9 @@
     enable = true;
   };
 
+  # ACPID
+  services.acpid.enable = true;
+
   # Sound configuration
   sound.enable = true;
   hardware = {
