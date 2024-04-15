@@ -41,6 +41,7 @@
     feh
     fh
     fzf
+    glow
     iw
     kitty
     lsd
@@ -100,6 +101,9 @@
     nuclei
     nuclei-templates
     protonvpn-gui
+    termshark
+    tshark
+    wireshark
 
     # Editors and IDEs
     meld
