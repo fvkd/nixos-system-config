@@ -34,6 +34,7 @@
     bluez-tools
     ckb-next
     curl
+    deluge
     elasticsearch
     #etcher
     eza
