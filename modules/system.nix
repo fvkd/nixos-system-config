@@ -39,7 +39,7 @@
       "nixospkgs"
       "-L"
     ];
-    dates = "0:00";
+    dates = "9:00";
     randomizedDelaySec = "45min";
   };
 
