@@ -6,6 +6,21 @@
   # Printing configuration
   services.printing.enable = false;
 
+  # Touchpad configuration
+  services.xserver.libinput = {
+    touchpad = {
+      accelSpeed = "1.0";
+      tappingDragLock = true;
+      naturalScrolling = false;
+      clickMethod = "clickfinger";
+      tapping = true;
+      disableWhileTyping = true;
+      scrollMethod = "twofinger";
+      horizontalScrolling = true;
+    };
+    enable = true;
+  };
+
   # Sound configuration
   sound.enable = true;
   hardware = {
@@ -29,4 +44,21 @@
 
   # Enable Blueman Bluetooth service
   services.blueman.enable = true;
+
+  # Atuin configuration
+  services.atuin = {
+    maxHistoryLength = 200000;
+    host = "127.0.0.1";
+    enable = true;
+    openFirewall = true;
+  };
+
+  # Emacs configuration
+  # TODO: Edit to configure for Doom Emacs
+  services.emacs = {
+    package = pkgs.emacs-gtk;
+    enable = true;
+    startWithGraphical = true;
+    install = true;
+  };
 }
