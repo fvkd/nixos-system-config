@@ -24,6 +24,7 @@
     rustup
 
     # System utilities
+    alacritty
     appimage-run
     atuin
     barrier
