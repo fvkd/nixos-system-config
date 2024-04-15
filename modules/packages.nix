@@ -28,6 +28,8 @@
     appimage-run
     atuin
     barrier
+    bluez
+    bluez-tools
     ckb-next
     curl
     elasticsearch
