@@ -12,9 +12,9 @@
   # TODO: make and config at '~/.xinitrc'
   services.xserver.displayManager.startx.enable = true;
 
-  #services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
   #services.xserver.desktopManager.gnome.enable = true;
-  services.xserver.desktopManager.enlightenment.enable = true;
+  #services.xserver.desktopManager.enlightenment.enable = true;
 
   # Enable other window managers
   # TODO: retrieve ratpoison config from Samsung usb

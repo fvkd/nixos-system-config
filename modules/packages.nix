@@ -96,6 +96,8 @@
     # Security and VPN
     keyd
     maltego
+    nuclei
+    nuclei-templates
     protonvpn-gui
 
     # Editors and IDEs

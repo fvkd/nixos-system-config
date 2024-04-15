@@ -1,27 +1,44 @@
 building Nix...
 building the system configuration...
-these 4 derivations will be built:
-  /nix/store/wixpd61jfk7ig077v4wl2yyqrcvj2p4k-unit-acpid.service.drv
-  /nix/store/4rxlg7s2fxbr2kj2gh13cli4cajbcnmv-system-units.drv
-  /nix/store/f015cwa2q6mzkhwlzgjzzm1gfwzrrn17-etc.drv
-  /nix/store/pm0hr9pyy0q3704i06cy6w6g3pykkwrk-nixos-system-sixsixsix-24.05pre611350.cfd6b5fc90b1.drv
-these 5 paths will be fetched (0.05 MiB download, 0.17 MiB unpacked):
-  /nix/store/nl7sbnd2qpj8lswq52pz0b0ww37jlaqw-acEvent.sh
-  /nix/store/y4sjh9if7d7md5s97d8kzkjaspd2yfbh-acpi-events
-  /nix/store/jihrzrsfsanm8sw4qw3m8a28ajjnw966-acpid-2.0.34
-  /nix/store/wnrrd06z4jjqfy3fb0sqs58rf1r8lk6n-lidEvent.sh
-  /nix/store/2v4si5fsp1is9jrc988ykq2n1ik85v8n-powerEvent.sh
-copying path '/nix/store/jihrzrsfsanm8sw4qw3m8a28ajjnw966-acpid-2.0.34' from 'https://cache.nixos.org'...
-copying path '/nix/store/wnrrd06z4jjqfy3fb0sqs58rf1r8lk6n-lidEvent.sh' from 'https://cache.nixos.org'...
-copying path '/nix/store/nl7sbnd2qpj8lswq52pz0b0ww37jlaqw-acEvent.sh' from 'https://cache.nixos.org'...
-copying path '/nix/store/2v4si5fsp1is9jrc988ykq2n1ik85v8n-powerEvent.sh' from 'https://cache.nixos.org'...
-copying path '/nix/store/y4sjh9if7d7md5s97d8kzkjaspd2yfbh-acpi-events' from 'https://cache.nixos.org'...
-building '/nix/store/wixpd61jfk7ig077v4wl2yyqrcvj2p4k-unit-acpid.service.drv'...
-building '/nix/store/4rxlg7s2fxbr2kj2gh13cli4cajbcnmv-system-units.drv'...
-building '/nix/store/f015cwa2q6mzkhwlzgjzzm1gfwzrrn17-etc.drv'...
-building '/nix/store/pm0hr9pyy0q3704i06cy6w6g3pykkwrk-nixos-system-sixsixsix-24.05pre611350.cfd6b5fc90b1.drv'...
+these 3 derivations will be built:
+  /nix/store/f74c0h72xjc9klw1rvxcxflwxf3m308k-system-units.drv
+  /nix/store/q2pw3lhbg09fkpg1laaqww1hgnhxfsqs-etc.drv
+  /nix/store/c0vi5w54xff4dpp4qgdj4ip2q1sc9dvr-nixos-system-sixsixsix-24.05pre611350.cfd6b5fc90b1.drv
+building '/nix/store/f74c0h72xjc9klw1rvxcxflwxf3m308k-system-units.drv'...
+building '/nix/store/q2pw3lhbg09fkpg1laaqww1hgnhxfsqs-etc.drv'...
+building '/nix/store/c0vi5w54xff4dpp4qgdj4ip2q1sc9dvr-nixos-system-sixsixsix-24.05pre611350.cfd6b5fc90b1.drv'...
 activating the configuration...
 setting up /etc...
 reloading user units for vivivi...
 restarting sysinit-reactivation.target
-the following new units were started: acpid.service, sysinit-reactivation.target, systemd-tmpfiles-resetup.service
+warning: the following units failed: bluetooth.service, var-lib-bluetooth.automount
+
+× bluetooth.service - Bluetooth service
+     Loaded: loaded (/etc/systemd/system/bluetooth.service; enabled; preset: enabled)
+    Drop-In: /nix/store/9qymq31fjagzkfp4b68rcziy82nlhg13-system-units/bluetooth.service.d
+             └─overrides.conf
+     Active: failed (Result: exit-code) since Mon 2024-04-15 14:51:28 EDT; 181ms ago
+       Docs: man:bluetoothd(8)
+    Process: 24641 ExecStart=/nix/store/468hykzb473ascad7pkcdfi6sg2i73kz-bluez-5.72/libexec/bluetooth/bluetoothd -f /etc/bluetooth/main.conf (code=exited, status=238/STATE_DIRECTORY)
+   Main PID: 24641 (code=exited, status=238/STATE_DIRECTORY)
+         IP: 0B in, 0B out
+        CPU: 878us
+
+Apr 15 14:51:28 sixsixsix systemd[1]: Starting Bluetooth service...
+Apr 15 14:51:28 sixsixsix (uetoothd)[24641]: bluetooth.service: Failed to set up special execution directory in /var/lib: Host is down
+Apr 15 14:51:28 sixsixsix systemd[1]: bluetooth.service: Main process exited, code=exited, status=238/STATE_DIRECTORY
+Apr 15 14:51:28 sixsixsix systemd[1]: bluetooth.service: Failed with result 'exit-code'.
+Apr 15 14:51:28 sixsixsix systemd[1]: Failed to start Bluetooth service.
+
+× var-lib-bluetooth.automount
+     Loaded: not-found (Reason: Unit var-lib-bluetooth.automount not found.)
+     Active: failed (Result: resources) since Mon 2024-04-15 14:51:28 EDT; 186ms ago
+   Duration: 12min 56.878s
+      Where: /var/lib/bluetooth
+
+Apr 15 14:38:31 sixsixsix systemd[1]: var-lib-bluetooth.automount: Directory /var/lib/bluetooth to mount over is not empty, mounting anyway.
+Apr 15 14:38:31 sixsixsix systemd[1]: Set up automount var-lib-bluetooth.automount.
+Apr 15 14:51:28 sixsixsix systemd[1]: var-lib-bluetooth.automount: Got automount request for /var/lib/bluetooth, triggered by 24641 ((uetoothd))
+Apr 15 14:51:28 sixsixsix systemd[1]: var-lib-bluetooth.automount: Suppressing automount event since unit is no longer loaded.
+Apr 15 14:51:28 sixsixsix systemd[1]: var-lib-bluetooth.automount: Failed with result 'resources'.
+warning: error(s) occurred while switching to the new configuration
