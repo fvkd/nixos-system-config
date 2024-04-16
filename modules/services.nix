@@ -14,7 +14,7 @@
       naturalScrolling = false;
       clickMethod = "clickfinger";
       tapping = true;
-      disableWhileTyping = true;
+      #disableWhileTyping = false;
       scrollMethod = "twofinger";
       horizontalScrolling = true;
     };
@@ -23,6 +23,9 @@
 
   # ACPID
   services.acpid.enable = true;
+
+  # Enable input-remapper
+  services.input-remapper.enable = true;
 
   # Sound configuration
   sound.enable = true;
