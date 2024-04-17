@@ -63,6 +63,7 @@
     xsel
     xlockmore
     xdo
+    xdotool
     wget
     vuze
 
@@ -96,14 +97,17 @@
     xdg-desktop-portal-hyprland
 
     # Security and VPN
+    bettercap
     keyd
     maltego
     nuclei
     nuclei-templates
+    protonvpn-cli
     protonvpn-gui
     termshark
     tshark
     wireshark
+    wifite2
 
     # Editors and IDEs
     meld

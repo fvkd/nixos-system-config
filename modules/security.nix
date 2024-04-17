@@ -54,8 +54,10 @@
   boot.kernelModules = ["tcp_bbr"];
 
   # Enable fail2ban
-  #system.autoUpgrade = {
-  # enable = true;
-  # allowReboot = true;
-  #};
+  services.fail2ban.enable = true;
+
+  system.autoUpgrade = {
+    enable = true;
+    allowReboot = true;
+  };
 }
