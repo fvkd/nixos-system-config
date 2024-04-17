@@ -21,6 +21,8 @@
     pkg-config
     poetry
     python311Full
+    python311Packages.xlib
+    python311Packages.dbus-python
     rustup
 
     # System utilities
@@ -114,5 +116,9 @@
     spacevim
     xfce.catfish
     xfce.thunar
+
+    # Xmonad and xmobar
+    xmonad-with-packages
+    xmobar
   ];
 }

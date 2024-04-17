@@ -1,1 +1,0 @@
-/home/vivivi/hrm.sh
