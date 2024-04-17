@@ -26,6 +26,7 @@
       luaModules = [pkgs.luaPackages.vicious];
     };
   };
+  services.xserver.windowManager.ratpoison.enable = true;
   services.xserver.windowManager.xmonad.enable = true;
   services.xserver.windowManager.xmonad.extraPackages = haskellPackages: [
     haskellPackages.xmonad-contrib
@@ -47,7 +48,7 @@
 
     myConfig = defaultConfig
       { modMask = mod4Mask -- Use Super instead of Alt
-      , terminal = "urxvt" }
+      , terminal = "kitty" }
       `additionalKeys`
       [ ( (mod4Mask,xK_r), compileRestart True)
       , ( (mod4Mask,xK_q), restart "xmonad" True ) ]
@@ -63,22 +64,6 @@
             )
 
     main = getDirectories >>= launch myConfig
-
-    --------------------------------------------
-    {- For versions before 0.17.0 use this instead -}
-    --------------------------------------------
-    -- compileRestart resume =
-    --   whenX (recompile True) $
-    --     when resume writeStateToFile
-    --       *> catchIO
-    --         ( do
-    --             dir <- getXMonadDataDir
-    --             args <- getArgs
-    --             executeFile (dir </> compiledConfig) False args Nothing
-    --         )
-    --
-    -- main = launch myConfig
-    --------------------------------------------
 
   '';
 
