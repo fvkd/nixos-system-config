@@ -1,28 +1,8 @@
 unpacking channels...
 building Nix...
 building the system configuration...
-error:
-       … while calling the 'head' builtin
-
-         at /nix/var/nix/profiles/per-user/root/channels/nixos/lib/attrsets.nix:1541:11:
-
-         1540|         || pred here (elemAt values 1) (head values) then
-         1541|           head values
-             |           ^
-         1542|         else
-
-       … while evaluating the attribute 'value'
-
-         at /nix/var/nix/profiles/per-user/root/channels/nixos/lib/modules.nix:809:9:
-
-          808|     in warnDeprecation opt //
-          809|       { value = builtins.addErrorContext "while evaluating the option `${showOption loc}':" value;
-             |         ^
-          810|         inherit (res.defsFinal') highestPrio;
-
-       (stack trace truncated; use '--show-trace' to show the full trace)
-
-       error: The option `systemd.services.keyd.description' has conflicting definition values:
-       - In `/nix/var/nix/profiles/per-user/root/channels/nixos/nixos/modules/services/hardware/keyd.nix': "Keyd remapping daemon"
-       - In `/etc/nixos/modules/keyd.nix': "key remapping daemon"
-       Use `lib.mkForce value` or `lib.mkDefault value` to change the priority on any of these definitions.
+activating the configuration...
+setting up /etc...
+reloading user units for vivivi...
+restarting sysinit-reactivation.target
+the following new units were started: sysinit-reactivation.target, systemd-tmpfiles-resetup.service
