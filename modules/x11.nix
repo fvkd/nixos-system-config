@@ -31,6 +31,14 @@
   services.xserver.windowManager.xmonad.extraPackages = haskellPackages: [
     haskellPackages.xmonad-contrib
     haskellPackages.monad-logger
+    haskellPackages.xmonad-utils
+    haskellPackages.xmonad-volume
+    haskellPackages.xmonad-extras
+    #haskellPackages.xmonad-wallpaper
+    #haskellPackages.xmonad-windownames
+    #haskellPackages.xmonad-entryhelper
+    #haskellPackages.xmonad-contrib-gpl
+    haskellPackages.DescriptiveKeys
   ];
   services.xserver.windowManager.xmonad.enableConfiguredRecompile = true;
   services.xserver.windowManager.xmonad.enableContribAndExtras = true;

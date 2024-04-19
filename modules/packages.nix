@@ -15,6 +15,7 @@
     gcc
     gh
     git
+    libstdcxx5
     meson
     nixfmt-classic
     nixpkgs-fmt
@@ -52,8 +53,10 @@
     nerdfonts
     nh
     nix-index
+    nix-output-monitor
     nmap
     nmapsi4
+    nvd
     pasystray
     ripgrep
     rofi
@@ -62,6 +65,9 @@
     swaybg
     sysz
     usbutils
+    unzip
+    xidlehook
+    xclip
     xsel
     xlockmore
     xdo
@@ -99,9 +105,13 @@
     xdg-desktop-portal-hyprland
 
     # Security and VPN
+    airgeddon
     bettercap
+    hcxtools
+    hcxdumptool
     keyd
     maltego
+    mdk4
     nuclei
     nuclei-templates
     protonvpn-cli

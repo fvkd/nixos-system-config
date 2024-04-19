@@ -1,51 +1,30 @@
 unpacking channels...
 building Nix...
 building the system configuration...
-these 28 derivations will be built:
-  /nix/store/hrvqqzrfba89sh2fymbd94qk30v3rqx5-xmonad.drv
-  /nix/store/ky5pjdmz2gm7g7ldnvybk9xyx09c92y9-xmonad.drv
-  /nix/store/hw0a0maqp47m5aayglmfbg72lnjgnkfm-man-paths.drv
-  /nix/store/20mabvm5qhd72cyfzpk5vc2jyd5as7w6-man-cache.drv
-  /nix/store/hq8hfa06xd66hxc23b8bkd39p5fp79vw-xsession.drv
-  /nix/store/3djifcav2cq46xwd16c9hqp3kx2way14-none+xmonad-xsession.drv
-  /nix/store/ah0dxcwr5bmwl2ml2lx7cgg5l2qnvqik-desktops.drv
-  /nix/store/zqzydha0dnllclxdw3rf3yn7cld65jc1-set-environment.drv
-  /nix/store/2jgsssk925jdcd6zmcy56iv1b14zfjmx-etc-profile.drv
-  /nix/store/l6xjj9s2klrvbg0rvyvwvb51qpafxza4-system-path.drv
-  /nix/store/3w6wk9mb7dsqjr1cwn6jn73n4ll39y26-unit-accounts-daemon.service.drv
-  /nix/store/knjna7y2zl010klsxd6390wrg9kg0ain-dbus-1.drv
-  /nix/store/5kmzlcz92qsvv3n32pjc67040k9ryanj-X-Restart-Triggers-dbus-broker.drv
-  /nix/store/cr7rikyami0jbixs2j5xwgrjl8xiwd5s-unit-emacs.service.drv
-  /nix/store/cw719g4lq1csi62piq71gdcy312r74bg-sddm.conf.drv
-  /nix/store/n44fcgxbiglh0qfr5yn04jvq12k4s3gr-X-Restart-Triggers-polkit.drv
-  /nix/store/ixg707a3ix1kihh1wasjgbmq4rjn0wpz-unit-polkit.service.drv
-  /nix/store/rmhbifvjq0jnss529qfka7kwskxm4cfd-unit-dbus-broker.service.drv
-  /nix/store/d1282hqh1460a6hv0g1dq0nl2h8b3v0r-system-units.drv
-  /nix/store/fhfdzss8dci00j8idbdiybdzxvqh207l-etc-man_db.conf.drv
-  /nix/store/i6yzln3w1kzqldlwjas8lis9kknf1zw4-unit-dbus-broker.service.drv
-  /nix/store/iadkbyhvj2sgx4pnrrl5asmrgbkhzx03-xmonad_fish-completions.drv
-  /nix/store/jkpq7dz6ngvi18ynrkmabvsr9qcl2q74-system_fish-completions.drv
-  /nix/store/jz91pplkczg5lzm0jr7jxaf9m8zd4anh-etc-pam-environment.drv
-  /nix/store/ksn0lwdh6caikvdw2zza5lpm4b2vjy2c-etc-fish-nixos-env-preinit.fish.drv
-  /nix/store/nq67ha20idy5gxqbfwy3s9pravpj4rwy-user-units.drv
-  /nix/store/y8xn42k999fa3pr93nhxwfpskwf3kvgi-etc.drv
-  /nix/store/lvggnhr30v16dl1rws85j9smjr2z5lg9-nixos-system-sixsixsix-24.05pre612413.5672bc9dbf9d.drv
-building '/nix/store/hrvqqzrfba89sh2fymbd94qk30v3rqx5-xmonad.drv'...
-[1 of 2] Compiling Main             ( tmp.hs, tmp.o )
-
-tmp.hs:12:12: warning: [GHC-68441] [-Wdeprecations]
-    In the use of `defaultConfig'
-    (imported from XMonad, but defined in XMonad.Config):
-    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
-   |
-12 | myConfig = defaultConfig
-   |            ^^^^^^^^^^^^^
-[2 of 2] Linking tmp
-building '/nix/store/ky5pjdmz2gm7g7ldnvybk9xyx09c92y9-xmonad.drv'...
-building '/nix/store/hw0a0maqp47m5aayglmfbg72lnjgnkfm-man-paths.drv'...
-building '/nix/store/l6xjj9s2klrvbg0rvyvwvb51qpafxza4-system-path.drv'...
-building '/nix/store/iadkbyhvj2sgx4pnrrl5asmrgbkhzx03-xmonad_fish-completions.drv'...
-building '/nix/store/hq8hfa06xd66hxc23b8bkd39p5fp79vw-xsession.drv'...
+these 17 derivations will be built:
+  /nix/store/vn0sad116k1hzz90k3nyb73gxxz1bsjz-mdk4-unstable-2021-04-27_fish-completions.drv
+  /nix/store/ai8lr0zr36yv3b7lip95ikvwf8wigfqb-system_fish-completions.drv
+  /nix/store/q9s98m526mxvm6xd1238inn93c08fmm0-system-path.drv
+  /nix/store/cd8f5r1lklm00gfcplh320z04z2d1n8r-dbus-1.drv
+  /nix/store/knp3kgj12g8bnymh99mxvxfvjivw363d-X-Restart-Triggers-polkit.drv
+  /nix/store/2vrhvrcd5y0c60cwd0mp8y187vkjyk52-unit-polkit.service.drv
+  /nix/store/711w7sm108afmpa59j19k7mm8hxpj4fn-unit-accounts-daemon.service.drv
+  /nix/store/48c1v1dfjdlfnvgfbhr5gix9pn5cpnnn-X-Restart-Triggers-dbus-broker.drv
+  /nix/store/bkpdhdcfj62dz8g7qqqwhcg1d351n324-unit-dbus-broker.service.drv
+  /nix/store/n4dnixzi2lwr1lvkhs5x0bpg5xvxd1ps-system-units.drv
+  /nix/store/2qix84y38wl55dzg030ryx4dk60gfqm3-man-paths.drv
+  /nix/store/krb21vs1n4fk5h726msqnp8ml820an3b-man-cache.drv
+  /nix/store/pa9dhbyvrwbks1pk0v1p4gw2l2j27yxx-etc-man_db.conf.drv
+  /nix/store/lxly1wavpkl7ffz25hlq5imgb7pqjxis-unit-dbus-broker.service.drv
+  /nix/store/x43pnqw7lpnc43w42knam5zp175m0hir-user-units.drv
+  /nix/store/033wg21v579xyb0ah0yzcnl58fhfqpq7-etc.drv
+  /nix/store/5fz7sspkyjqmms72szssxf4a6ppi8745-nixos-system-sixsixsix-24.05pre612742.66adc1e47f87.drv
+this path will be fetched (0.07 MiB download, 0.19 MiB unpacked):
+  /nix/store/l4qrvw846s8lhpq4rmw0g89ix2zm8snz-mdk4-unstable-2021-04-27
+copying path '/nix/store/l4qrvw846s8lhpq4rmw0g89ix2zm8snz-mdk4-unstable-2021-04-27' from 'https://cache.nixos.org'...
+building '/nix/store/2qix84y38wl55dzg030ryx4dk60gfqm3-man-paths.drv'...
+building '/nix/store/vn0sad116k1hzz90k3nyb73gxxz1bsjz-mdk4-unstable-2021-04-27_fish-completions.drv'...
+building '/nix/store/q9s98m526mxvm6xd1238inn93c08fmm0-system-path.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/androiddump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/androiddump.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/capinfos.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/capinfos.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/captype.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/captype.1.gz'
@@ -64,14 +43,15 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/sshdump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/sshdump.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/text2pcap.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/text2pcap.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/tshark.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/tshark.1.gz'
+building '/nix/store/ai8lr0zr36yv3b7lip95ikvwf8wigfqb-system_fish-completions.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/udpdump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/udpdump.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/wifidump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/wifidump.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/wireshark.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/wireshark.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man4/extcap.4.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man4/extcap.4.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man4/wireshark-filter.4.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man4/wireshark-filter.4.gz'
-warning: collision between `/nix/store/4fa0kqvxggk7cj2k9ys16ibi1921mfr5-xmonad/share/man/man1/xmonad.1.gz' and `/nix/store/wczqaa6ka4rbvry655ybcjpaakacpigl-xmonad-with-packages-9.6.4/share/man/man1/xmonad.1.gz'
-building '/nix/store/jkpq7dz6ngvi18ynrkmabvsr9qcl2q74-system_fish-completions.drv'...
-created 5955 symlinks in user environment
+warning: collision between `/nix/store/qjdvk8ggq7lhpphj6s32sgj83acs39h2-xmonad/share/man/man1/xmonad.1.gz' and `/nix/store/m41wrn8qzl141yja5xmznr7sd7bpiyad-xmonad-with-packages-9.6.4/share/man/man1/xmonad.1.gz'
+created 5964 symlinks in user environment
+building '/nix/store/krb21vs1n4fk5h726msqnp8ml820an3b-man-cache.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/bin/capinfos' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/bin/capinfos'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/bin/captype' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/bin/captype'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/bin/dumpcap' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/bin/dumpcap'
@@ -93,24 +73,6 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/libwiretap.so.14.1.4' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/libwiretap.so.14.1.4'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/libwsutil.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/libwsutil.so'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/libwsutil.so.15' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/libwsutil.so.15'
-building '/nix/store/3djifcav2cq46xwd16c9hqp3kx2way14-none+xmonad-xsession.drv'...
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/libwsutil.so.15.0.0' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/libwsutil.so.15.0.0'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/androiddump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/androiddump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/ciscodump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/ciscodump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/dpauxmon' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/dpauxmon'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/randpktdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/randpktdump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/sshdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/sshdump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/udpdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/udpdump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/wifidump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/wifidump'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/amrnb.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/amrnb.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g711.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g711.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g722.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g722.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g726.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g726.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g729.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g729.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/l16mono.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/l16mono.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/opus_dec.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/opus_dec.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/sbc.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/sbc.so'
-warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/epan/ethercat.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/epan/ethercat.so'
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/androiddump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/androiddump.fish'
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/capinfos.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/capinfos.fish'
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/captype.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/captype.fish'
@@ -129,7 +91,28 @@ warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshar
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/sshdump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/sshdump.fish'
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/text2pcap.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/text2pcap.fish'
 warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/tshark.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/tshark.fish'
-building '/nix/store/20mabvm5qhd72cyfzpk5vc2jyd5as7w6-man-cache.drv'...
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/libwsutil.so.15.0.0' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/libwsutil.so.15.0.0'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/androiddump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/androiddump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/ciscodump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/ciscodump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/dpauxmon' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/dpauxmon'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/randpktdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/randpktdump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/sshdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/sshdump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/udpdump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/udpdump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/extcap/wifidump' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/extcap/wifidump'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/amrnb.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/amrnb.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g711.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g711.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g722.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g722.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g726.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g726.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/g729.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/g729.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/l16mono.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/l16mono.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/opus_dec.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/opus_dec.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/codecs/sbc.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/codecs/sbc.so'
+warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/epan/ethercat.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/epan/ethercat.so'
+warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/udpdump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/udpdump.fish'
+warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wifidump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wifidump.fish'
+warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wireshark.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wireshark.fish'
+warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wireshark-filter.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wireshark-filter.fish'
+created 806 symlinks in user environment
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/epan/gryphon.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/epan/gryphon.so'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/epan/irda.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/epan/irda.so'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/lib/wireshark/plugins/4.2/epan/mate.so' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/lib/wireshark/plugins/4.2/epan/mate.so'
@@ -147,12 +130,6 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/captype.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/captype.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/ciscodump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/ciscodump.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/dpauxmon.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/dpauxmon.1.gz'
-warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/udpdump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/udpdump.fish'
-warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wifidump.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wifidump.fish'
-warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wireshark.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wireshark.fish'
-warning: collision between `/nix/store/702immkk7a3wxp0zd7nl59nhqjx2znmx-wireshark-qt-4.2.4_fish-completions/wireshark-filter.fish' and `/nix/store/0dplhx2ywi8z9qz7q6gwsj9wsqxbax2d-wireshark-cli-4.2.4_fish-completions/wireshark-filter.fish'
-created 799 symlinks in user environment
-building '/nix/store/ah0dxcwr5bmwl2ml2lx7cgg5l2qnvqik-desktops.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/dumpcap.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/dumpcap.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/editcap.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/editcap.1.gz'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/man/man1/etwdump.1.gz' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/man/man1/etwdump.1.gz'
@@ -189,9 +166,6 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/Nokia.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/Nokia.xml'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/NokiaSolutionsAndNetworks.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/NokiaSolutionsAndNetworks.xml'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/Oracle.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/Oracle.xml'
-building '/nix/store/jz91pplkczg5lzm0jr7jxaf9m8zd4anh-etc-pam-environment.drv'...
-building '/nix/store/cw719g4lq1csi62piq71gdcy312r74bg-sddm.conf.drv'...
-building '/nix/store/zqzydha0dnllclxdw3rf3yn7cld65jc1-set-environment.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/Siemens.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/Siemens.xml'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/Starent.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/Starent.xml'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/diameter/TGPP.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/diameter/TGPP.xml'
@@ -227,9 +201,6 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/profiles/Classic/colorfilters' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/profiles/Classic/colorfilters'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/profiles/No Reassembly/preferences' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/profiles/No Reassembly/preferences'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/radius/README.radius_dictionary' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/radius/README.radius_dictionary'
-building '/nix/store/ksn0lwdh6caikvdw2zza5lpm4b2vjy2c-etc-fish-nixos-env-preinit.fish.drv'...
-building '/nix/store/2jgsssk925jdcd6zmcy56iv1b14zfjmx-etc-profile.drv'...
-building '/nix/store/cr7rikyami0jbixs2j5xwgrjl8xiwd5s-unit-emacs.service.drv'...
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/radius/custom.includes' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/radius/custom.includes'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/radius/dictionary' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/radius/dictionary'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/radius/dictionary.3com' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/radius/dictionary.3com'
@@ -444,22 +415,22 @@ warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshar
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/wimaxasncp/dictionary.dtd' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/wimaxasncp/dictionary.dtd'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/wimaxasncp/dictionary.xml' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/wimaxasncp/dictionary.xml'
 warning: collision between `/nix/store/gllm26ybhg2hm9b0diq6l61zknaykjh4-wireshark-qt-4.2.4/share/wireshark/wka' and `/nix/store/34zm24bcy0al0lnrxramna453ijgy3m4-wireshark-cli-4.2.4/share/wireshark/wka'
-warning: collision between `/nix/store/4fa0kqvxggk7cj2k9ys16ibi1921mfr5-xmonad/share/man/man1/xmonad.1.gz' and `/nix/store/wczqaa6ka4rbvry655ybcjpaakacpigl-xmonad-with-packages-9.6.4/share/man/man1/xmonad.1.gz'
-warning: collision between `/nix/store/4fa0kqvxggk7cj2k9ys16ibi1921mfr5-xmonad/bin/xmonad' and `/nix/store/wczqaa6ka4rbvry655ybcjpaakacpigl-xmonad-with-packages-9.6.4/bin/xmonad'
-created 37926 symlinks in user environment
+warning: collision between `/nix/store/qjdvk8ggq7lhpphj6s32sgj83acs39h2-xmonad/share/man/man1/xmonad.1.gz' and `/nix/store/m41wrn8qzl141yja5xmznr7sd7bpiyad-xmonad-with-packages-9.6.4/share/man/man1/xmonad.1.gz'
+warning: collision between `/nix/store/qjdvk8ggq7lhpphj6s32sgj83acs39h2-xmonad/bin/xmonad' and `/nix/store/m41wrn8qzl141yja5xmznr7sd7bpiyad-xmonad-with-packages-9.6.4/bin/xmonad'
+created 37969 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/n44fcgxbiglh0qfr5yn04jvq12k4s3gr-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/knjna7y2zl010klsxd6390wrg9kg0ain-dbus-1.drv'...
-building '/nix/store/3w6wk9mb7dsqjr1cwn6jn73n4ll39y26-unit-accounts-daemon.service.drv'...
-building '/nix/store/5kmzlcz92qsvv3n32pjc67040k9ryanj-X-Restart-Triggers-dbus-broker.drv'...
-building '/nix/store/ixg707a3ix1kihh1wasjgbmq4rjn0wpz-unit-polkit.service.drv'...
-building '/nix/store/i6yzln3w1kzqldlwjas8lis9kknf1zw4-unit-dbus-broker.service.drv'...
-building '/nix/store/rmhbifvjq0jnss529qfka7kwskxm4cfd-unit-dbus-broker.service.drv'...
-building '/nix/store/nq67ha20idy5gxqbfwy3s9pravpj4rwy-user-units.drv'...
-building '/nix/store/d1282hqh1460a6hv0g1dq0nl2h8b3v0r-system-units.drv'...
-building '/nix/store/fhfdzss8dci00j8idbdiybdzxvqh207l-etc-man_db.conf.drv'...
-building '/nix/store/y8xn42k999fa3pr93nhxwfpskwf3kvgi-etc.drv'...
-building '/nix/store/lvggnhr30v16dl1rws85j9smjr2z5lg9-nixos-system-sixsixsix-24.05pre612413.5672bc9dbf9d.drv'...
+building '/nix/store/knp3kgj12g8bnymh99mxvxfvjivw363d-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/cd8f5r1lklm00gfcplh320z04z2d1n8r-dbus-1.drv'...
+building '/nix/store/711w7sm108afmpa59j19k7mm8hxpj4fn-unit-accounts-daemon.service.drv'...
+building '/nix/store/48c1v1dfjdlfnvgfbhr5gix9pn5cpnnn-X-Restart-Triggers-dbus-broker.drv'...
+building '/nix/store/2vrhvrcd5y0c60cwd0mp8y187vkjyk52-unit-polkit.service.drv'...
+building '/nix/store/bkpdhdcfj62dz8g7qqqwhcg1d351n324-unit-dbus-broker.service.drv'...
+building '/nix/store/lxly1wavpkl7ffz25hlq5imgb7pqjxis-unit-dbus-broker.service.drv'...
+building '/nix/store/n4dnixzi2lwr1lvkhs5x0bpg5xvxd1ps-system-units.drv'...
+building '/nix/store/x43pnqw7lpnc43w42knam5zp175m0hir-user-units.drv'...
+building '/nix/store/pa9dhbyvrwbks1pk0v1p4gw2l2j27yxx-etc-man_db.conf.drv'...
+building '/nix/store/033wg21v579xyb0ah0yzcnl58fhfqpq7-etc.drv'...
+building '/nix/store/5fz7sspkyjqmms72szssxf4a6ppi8745-nixos-system-sixsixsix-24.05pre612742.66adc1e47f87.drv'...
 stopping the following units: accounts-daemon.service
 activating the configuration...
 setting up /etc...
