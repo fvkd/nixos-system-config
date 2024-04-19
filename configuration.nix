@@ -12,7 +12,7 @@
     ./modules/packages.nix
     ./modules/security.nix
     ./modules/other.nix
-    ./modules/xmonad.nix
+    ./modules/keyd.nix
   ];
 
   system.stateVersion = "23.11";

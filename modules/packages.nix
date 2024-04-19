@@ -55,8 +55,6 @@
     nh
     nix-index
     nix-output-monitor
-    nmap
-    nmapsi4
     nvd
     pasystray
     ripgrep
@@ -115,6 +113,8 @@
     keyd
     maltego
     mdk4
+    nmap
+    nmapsi4
     nuclei
     nuclei-templates
     protonvpn-cli

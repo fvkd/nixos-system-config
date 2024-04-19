@@ -10,11 +10,11 @@
   services.xserver.libinput = {
     touchpad = {
       accelSpeed = "1.0";
-      tappingDragLock = true;
+      tappingDragLock = false;
       naturalScrolling = false;
-      clickMethod = "clickfinger";
-      tapping = true;
-      #disableWhileTyping = false;
+      clickMethod = "none";
+      tapping = false;
+      disableWhileTyping = true;
       scrollMethod = "twofinger";
       horizontalScrolling = true;
     };
@@ -25,7 +25,7 @@
   services.acpid.enable = true;
 
   # Enable input-remapper
-  services.input-remapper.enable = true;
+  services.input-remapper.enable = false;
 
   # Sound configuration
   sound.enable = true;
