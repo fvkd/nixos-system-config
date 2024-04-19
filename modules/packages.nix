@@ -46,6 +46,7 @@
     fzf
     glow
     iw
+    jq
     kitty
     lsd
     lxappearance
@@ -64,6 +65,7 @@
     sutils
     swaybg
     sysz
+    upower
     usbutils
     unzip
     xidlehook
@@ -99,6 +101,7 @@
     nwg-launchers
     nwg-dock-hyprland
     nwg-dock-hyprland
+    polybar
     waylogout
     wlroots
     yambar-hyprland-wses
