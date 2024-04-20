@@ -36,8 +36,10 @@
     bluez
     bluez-tools
     ckb-next
+    conky
     curl
     deluge
+    dzen2
     elasticsearch
     #etcher
     eza
@@ -66,6 +68,7 @@
     upower
     usbutils
     unzip
+    vlc
     xidlehook
     xclip
     xsel
@@ -129,9 +132,5 @@
     spacevim
     xfce.catfish
     xfce.thunar
-
-    # Xmonad and xmobar
-    xmonad-with-packages
-    xmobar
   ];
 }

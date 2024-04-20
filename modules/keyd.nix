@@ -38,7 +38,8 @@
 
     #leftshift = overload(shift, backspace)
     rightshift = overload(shift, enter)
-    meta = oneshot(meta)
+    #meta = oneshot(meta)
+    meta = macro(C-y)
     control = oneshot(control)
 
     leftalt = oneshot(alt)
@@ -48,14 +49,14 @@
 
     sysrq = backslash
 
-    #wakeup = macro(C-t)
+    wakeup = macro(C-y !)
 
     escape = `
 
     ` = backspace
 
-    #rightmouse = backspace
+    rightmouse = backspace
 
-    #middlemouse = enter
+    middlemouse = enter
   '';
 }
