@@ -68,7 +68,7 @@
     upower
     usbutils
     unzip
-    vlc
+    #vlc
     xidlehook
     xclip
     xsel
