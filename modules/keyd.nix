@@ -55,8 +55,8 @@
 
     ` = backspace
 
-    rightmouse = backspace
+    #rightmouse = backspace
 
-    middlemouse = enter
+    #middlemouse = enter
   '';
 }

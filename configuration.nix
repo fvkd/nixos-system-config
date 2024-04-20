@@ -13,6 +13,7 @@
     ./modules/security.nix
     ./modules/other.nix
     ./modules/keyd.nix
+    #./modules/ratpoison.nix
   ];
 
   system.stateVersion = "23.11";

@@ -18,7 +18,7 @@
   #services.xserver.desktopManager.enlightenment.enable = true;
 
   # Enable other window managers
-  # TODO: retrieve ratpoison config from Samsung usb
+
   services.xserver.windowManager = {
     awesome = {
       package = pkgs.awesome;
