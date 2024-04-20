@@ -49,7 +49,7 @@
 
     sysrq = backslash
 
-    wakeup = macro(C-y !)
+    wakeup = !
 
     escape = `
 
