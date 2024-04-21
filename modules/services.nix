@@ -24,6 +24,9 @@
   # ACPID
   services.acpid.enable = true;
 
+  # Enable Android Debug Bridge (adb)
+  programs.adb.enable = true;
+
   # Enable input-remapper
   services.input-remapper.enable = false;
 

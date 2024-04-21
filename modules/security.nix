@@ -60,4 +60,6 @@
     enable = true;
     allowReboot = true;
   };
+
+  services.openssh.enable = false;
 }

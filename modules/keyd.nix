@@ -42,7 +42,9 @@
   environment.etc."keyd/default.conf".text = ''
     [ids]
 
-    0001:0001
+    *
+
+    #0001:0001
       #leftshift = overload(shift, backspace)
       rightshift = overload(shift, enter)
       #meta = oneshot(meta)

@@ -17,6 +17,8 @@
     git
     libstdcxx5
     meson
+    nil
+    nixd
     nixfmt-classic
     nixpkgs-fmt
     pkg-config
