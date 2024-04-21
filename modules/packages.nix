@@ -113,7 +113,6 @@
     bettercap
     hcxtools
     hcxdumptool
-    keyd
     maltego
     mdk4
     nmap
@@ -122,9 +121,9 @@
     nuclei-templates
     protonvpn-cli
     protonvpn-gui
-    termshark
-    tshark
-    wireshark
+    #termshark
+    #tshark
+    #wireshark
     wifite2
 
     # Editors and IDEs

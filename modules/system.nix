@@ -43,10 +43,6 @@
     randomizedDelaySec = "45min";
   };
 
-  # Enable Keyd service
-  # Find out what's enabling this at boot time before logging in for reproducibility
-  #services.keyd.enable = true;
-
   # Enable Fish shell
   programs.fish.enable = true;
 

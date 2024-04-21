@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": ".."
+			"path": "."
 		},
 		{
-			"path": "../../../home/vivivi/.config/home-manager"
+			"path": "../../home/vivivi/.config/home-manager"
 		}
 	],
 	"settings": {}

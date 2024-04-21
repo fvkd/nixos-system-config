@@ -83,4 +83,7 @@
     startWithGraphical = true;
     install = true;
   };
+
+  # Enable non-root access to the firmware of QMK keyboards
+  #hardware.keyboard.qmk.enable = true;
 }
