@@ -44,36 +44,28 @@
 
     *
 
-    #0001:0001
-      #leftshift = overload(shift, backspace)
-      rightshift = overload(shift, enter)
-      #meta = oneshot(meta)
-      meta = macro(C-y)
-      #control = oneshot(control)
-
-      leftalt = oneshot(alt)
-      rightalt = oneshot(altgr)
-
-      capslock = overload(control, esc)
-
-      sysrq = backslash
-
-      wakeup = !
-
-      escape = `
-
-      ` = backspace
-
-    05ac:024f
-      leftmeta = oneshot(leftalt)
-      leftalt = macro(C-y)
-      capslock = overload(control, esc)
-
-
-
     #04f3:0080
 
     [main]
+
+    #leftshift = overload(shift, backspace)
+    rightshift = overload(shift, enter)
+    #meta = oneshot(meta)
+    meta = macro(C-y)
+    control = oneshot(control)
+
+    leftalt = oneshot(alt)
+    rightalt = oneshot(altgr)
+
+    capslock = overload(control, esc)
+
+    sysrq = backslash
+
+    wakeup = !
+
+    escape = `
+
+    ` = backspace
 
     #rightmouse = backspace
 
