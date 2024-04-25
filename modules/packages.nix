@@ -80,7 +80,11 @@
     wget
     vuze
 
-    # Hyprland desktop environment
+    # Desktop Environment
+    cosmic-edit
+    cosmic-files
+    cosmic-settings
+    cosmic-term
     hyprdim
     hyprnome
     hyprlock
