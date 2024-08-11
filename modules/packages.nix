@@ -37,6 +37,7 @@
     bitwarden-cli
     bluez
     bluez-tools
+    bottles
     ckb-next
     conky
     curl
